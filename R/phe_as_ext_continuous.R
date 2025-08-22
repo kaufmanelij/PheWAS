@@ -1,3 +1,7 @@
+#' PheWAS Extension for Continuous Predictors
+#'
+#' @export
+
 phe_as_ext_continuous <-
 function(phe.gen, min.records=20, return.models=FALSE, confint.level=NA,
          factor.contrasts=NA, my.data, ...) {

@@ -1,3 +1,7 @@
+#' PheWAS Extension for Continuous Predictors
+#'
+#' @export
+
 phewas_ext_continuous <-
 function(data, phenotypes, estimated_repeat_length, covariates=NULL,
          cores=1, min.records=20, return.models=FALSE, confint.level=NA,
